@@ -54,11 +54,12 @@
 @media only screen and (max-width: 700px){
     .add-todo-form{
         position: absolute;
-        width: 83.5%;
+        width: 75.5%;
         top: 170px;
-        left: 8.5%;
+        left: 7.5%;
     }
     .add-todo{
         width: 87%;
+        padding-left: 64px;
     }
 }

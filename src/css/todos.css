@@ -83,8 +83,8 @@
 
 @media only screen and (max-width: 700px){
     .todos{
-        left: 6.5%;
-        width: 88.5%
+        left: 5.5vw;
+        width: 82.5%
     }
     .add-todo{
         left: -2.5%;
