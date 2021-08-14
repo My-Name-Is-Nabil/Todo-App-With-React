@@ -37,7 +37,7 @@ export default function Todos(props){
                     </div>)
                 }  
                 </Droppable>
-                <TodosInfo collapse={collapse} theme={props.theme} clearTodos={props.clearTodos} changeCollapse={changeCollapse} /> 
+                <TodosInfo collapse={collapse} theme={props.theme} clearTodos={props.clearTodos} changeCollapse={changeCollapse} items={renderTodos().length}/> 
             </div>
         </DragDropContext>
     );
