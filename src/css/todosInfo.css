@@ -1,0 +1,65 @@
+.todos-info{
+    width: calc(84% + 68px);
+    height: 45px;
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 1.1em;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.todos-info.light{
+    background-color: white;
+    color: hsl(235, 19%, 35%);
+}
+
+.todos-info.dark{
+    background-color: hsl(235, 24%, 19%);
+    color: hsl(0, 0%, 98%);
+}
+
+
+.todos-info-nav{
+    display: flex;
+}
+
+.todos-info-nav__ul{
+    list-style: none;
+    display: flex;
+    margin: 0 0.2em;
+}
+
+.todos-info-nav__ul__li{
+    margin:0 0.3em;
+    cursor: pointer;
+}
+
+.todos-info-nav__ul__li.active{
+    color: hsl(220, 98%, 61%) !important;
+}
+
+.todos-info-nav__ul__li.light:hover{
+    color:hsl(235, 21%, 11%);
+}
+
+.todos-info-nav__ul__li.dark:hover{
+    color: hsl(236, 33%, 92%);
+}
+
+.todos-info-clear{
+    cursor: pointer;
+}
+
+
+.todos-info-clear.light:hover{
+    color:hsl(235, 21%, 11%);
+    cursor: pointer;
+}
+
+.todos-info-clear.dark:hover{
+    color: hsl(236, 33%, 92%);
+    cursor: pointer;
+}

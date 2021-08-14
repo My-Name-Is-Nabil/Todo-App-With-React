@@ -1,0 +1,38 @@
+.header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header__nav{
+    position: relative;
+    width: 50%;
+    top: -177px;
+    left: 27.5%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.header__nav-title{
+    font-size: 2rem;
+}
+
+.header__nav-mode{
+    cursor: pointer;
+}
+
+.header-image{
+    width: 100vw;
+    height: 300px;
+}
+
+@media only screen and (max-width: 700px) {
+    .header__nav{
+        position: relative;
+        width: 84%;
+        top: -267px;
+        left: 7.5%;
+    }
+}
