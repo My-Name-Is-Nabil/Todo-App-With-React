@@ -21,7 +21,8 @@ export default function App(props){
         if (todo.id === id)
           return {...todo, completed: !todo.completed};
         return todo; 
-      })
+      }),
+      counter: oldTodos.counter,
     }));
   }
   
